@@ -9,7 +9,7 @@ const Menu: FC = () => {
         <div>
             Menu
             <Link href="/">
-                <Image height={50} width={50} src={'/logo.png'} alt="fav" />
+                <Image height={50} width={50} src={'/logo.png'} alt="xmas shop" />
             </Link>
         </div>
     )
