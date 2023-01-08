@@ -1,3 +1,29 @@
 .menu {
-    @apply flex items-center bg-slate-500;
+    @apply flex items-center;
+
+    ul {
+        @apply flex gap-7 pl-[50px];
+
+        >li {
+            @apply relative;
+
+            &::after {
+                content: "";
+                @apply w-0 relative transition-all left-0 -bottom-3 h-[1px] bg-black duration-300;
+            }
+
+            &:hover::after {
+
+                @apply w-full absolute;
+            }
+
+
+            >a {
+                @apply relative uppercase tracking-widest;
+
+            }
+        }
+    }
+
+
 }

@@ -17,10 +17,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className="flex justify-center bg-green">
-        <div className="bg-gradient-to-r from-cyan-500 to-blue-500">1</div>
-        <div className={styles.red}>2</div>
-        <div className={styles.red}>3</div>
+      <main >
+        <div className="flex w-[100px] h-[100px] bg-slate-700"></div>
       </main>
     </>
   )

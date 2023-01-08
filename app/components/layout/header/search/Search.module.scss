@@ -1,0 +1,22 @@
+.search {
+    @apply relative;
+
+    &::before {
+        content: "";
+        @apply bg-light-green block absolute w-[550px] h-[550px] rounded-full translate-y-[-40%] translate-x-[-50%] -z-50;
+    }
+
+    input {
+
+
+
+        @apply relative bg-transparent w-[200px] h-[24px] mr-14 p-[15px] pl-0 border-gray-500 border-b-[1px] transition-all duration-200;
+
+
+
+        &::placeholder {
+            @apply text-gray-500;
+        }
+
+    }
+}
