@@ -28,6 +28,9 @@
       ],
       "@/screens/*": [
         "components/screens/*"
+      ],
+      "@/types/*": [
+        "types/*"
       ]
     }
   },

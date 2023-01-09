@@ -1,10 +1,14 @@
-import React from 'react'
+import { FC } from 'react'
+import styles from './Cart.module.scss'
 
-type Props = {}
-
-const Cart = (props: Props) => {
+const Cart: FC = () => {
     return (
-        <div>Cart</div>
+        <div className={styles.cart}>
+            <div className={styles.heading}>
+                <span className={styles.badge}>1</span>
+                <span className={styles.text}>MY BASKET</span>
+            </div>
+        </div>
     )
 }
 
