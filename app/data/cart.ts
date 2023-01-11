@@ -1,15 +1,21 @@
 import { ICartItem } from '@/types/cart.interface';
-export const cart: ICartItem[] = [
+import { products } from './products';
+
+export const cartData: ICartItem[] = [
     {
         id: 1,
         quantity: 1,
-        product: {
-            id: 1,
-            name: "Usual",
-            images: ["first", "second"],
-            description: "some points about product",
-            price: 100,
-            reviews: []
-        }
-    }
+        product: products[0]
+    },
+    {
+        id: 2,
+        quantity: 4,
+        product: products[1]
+    },
+    {
+        id: 3,
+        quantity: 1,
+        product: products[2]
+    },
+
 ]
