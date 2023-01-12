@@ -5,6 +5,7 @@ import { cartData } from '@/data/cart'
 import CartItem from './cart-item/CartItem'
 
 const Cart: FC = () => {
+    //                                 for boolean
     const [isOpen, setIsOpen] = useState<boolean>(false)
 
     return (
